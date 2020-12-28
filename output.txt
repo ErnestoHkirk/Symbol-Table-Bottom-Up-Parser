@@ -1,0 +1,359 @@
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = i
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = i
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = max
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = max
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = sum
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = sum
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = sum
+Current Stack: 0d4
+[TOKEN] = OPERATOR	[LEXEME] = =
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0I3
+[TOKEN] = OPERATOR	[LEXEME] = =
+Current Stack: 0I3=10
+[TOKEN] = INTEGER	[LEXEME] = 0
+
+[evaluating expression.]
+
+Current Stack: 0
+[TOKEN] = INTEGER	[LEXEME] = 0
+Current Stack: 0n8
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = N -> n (integer)
+Current Stack: 0N6
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = F -> N
+Current Stack: 0F3
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = T -> F
+Current Stack: 0T2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = E -> T
+Current Stack: 0E1
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[expression accepted.]
+
+Current Stack: 0I3=10E12
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = A -> I = E
+Current Stack: 0A2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = i
+Current Stack: 0d4
+[TOKEN] = OPERATOR	[LEXEME] = =
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0I3
+[TOKEN] = OPERATOR	[LEXEME] = =
+Current Stack: 0I3=10
+[TOKEN] = INTEGER	[LEXEME] = 1
+
+[evaluating expression.]
+
+Current Stack: 0
+[TOKEN] = INTEGER	[LEXEME] = 1
+Current Stack: 0n8
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = N -> n (integer)
+Current Stack: 0N6
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = F -> N
+Current Stack: 0F3
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = T -> F
+Current Stack: 0T2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = E -> T
+Current Stack: 0E1
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[expression accepted.]
+
+Current Stack: 0I3=10E12
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = A -> I = E
+Current Stack: 0A2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = num
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = num
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = nu2m
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = nu2m
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = int
+Current Stack: 0i9
+[TOKEN] = IDENTIFIER	[LEXEME] = large$
+[REDUCTION] = P -> int
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = large$
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = num
+Current Stack: 0d4
+[TOKEN] = OPERATOR	[LEXEME] = =
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0I3
+[TOKEN] = OPERATOR	[LEXEME] = =
+Current Stack: 0I3=10
+[TOKEN] = INTEGER	[LEXEME] = 0
+
+[evaluating expression.]
+
+Current Stack: 0
+[TOKEN] = INTEGER	[LEXEME] = 0
+Current Stack: 0n8
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = N -> n (integer)
+Current Stack: 0N6
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = F -> N
+Current Stack: 0F3
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = T -> F
+Current Stack: 0T2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = E -> T
+Current Stack: 0E1
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[expression accepted.]
+
+Current Stack: 0I3=10E12
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = A -> I = E
+Current Stack: 0A2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = nu2m
+Current Stack: 0d4
+[TOKEN] = OPERATOR	[LEXEME] = =
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0I3
+[TOKEN] = OPERATOR	[LEXEME] = =
+Current Stack: 0I3=10
+[TOKEN] = INTEGER	[LEXEME] = 15
+
+[evaluating expression.]
+
+Current Stack: 0
+[TOKEN] = INTEGER	[LEXEME] = 15
+Current Stack: 0n8
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = N -> n (integer)
+Current Stack: 0N6
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = F -> N
+Current Stack: 0F3
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = T -> F
+Current Stack: 0T2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = E -> T
+Current Stack: 0E1
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[expression accepted.]
+
+Current Stack: 0I3=10E12
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = A -> I = E
+Current Stack: 0A2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = sum
+Current Stack: 0d4
+[TOKEN] = OPERATOR	[LEXEME] = =
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0I3
+[TOKEN] = OPERATOR	[LEXEME] = =
+Current Stack: 0I3=10
+[TOKEN] = IDENTIFIER	[LEXEME] = num
+
+[evaluating expression.]
+
+Current Stack: 0
+[TOKEN] = IDENTIFIER	[LEXEME] = num
+Current Stack: 0i7
+[TOKEN] = OPERATOR	[LEXEME] = +
+[REDUCTION] = I -> i (identifier)
+Current Stack: 0I5
+[TOKEN] = OPERATOR	[LEXEME] = +
+[REDUCTION] = F -> I
+Current Stack: 0F3
+[TOKEN] = OPERATOR	[LEXEME] = +
+[REDUCTION] = T -> F
+Current Stack: 0T2
+[TOKEN] = OPERATOR	[LEXEME] = +
+[REDUCTION] = E -> T
+Current Stack: 0E1
+[TOKEN] = OPERATOR	[LEXEME] = +
+Current Stack: 0E1+10
+[TOKEN] = IDENTIFIER	[LEXEME] = nu2m
+Current Stack: 0E1+10i7
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> i (identifier)
+Current Stack: 0E1+10I5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = F -> I
+Current Stack: 0E1+10F3
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = T -> F
+Current Stack: 0E1+10T15
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = E -> E + T
+Current Stack: 0E1
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[expression accepted.]
+
+Current Stack: 0I3=10E12
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = A -> I = E
+Current Stack: 0A2
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
+[scanning next line.]
+
+Current Stack: 0
+[TOKEN] = KEYWORD	[LEXEME] = bool
+Current Stack: 0b7
+[TOKEN] = IDENTIFIER	[LEXEME] = hey
+[REDUCTION] = P -> bool
+Current Stack: 0P6
+[TOKEN] = IDENTIFIER	[LEXEME] = hey
+Current Stack: 0P6d13
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = I -> d (identifier)
+Current Stack: 0P6I11
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+[REDUCTION] = D -> P I
+Current Stack: 0D5
+[TOKEN] = SEPARATOR	[LEXEME] = ;
+
+[line accepted.]
+
